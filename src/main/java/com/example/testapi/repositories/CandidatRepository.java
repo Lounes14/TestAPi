@@ -10,5 +10,11 @@ import java.util.List;
 public interface CandidatRepository extends CrudRepository<Candidat, Long> {
 @Override
     List<Candidat> findAll();
+    public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, World!");
+            System.out.println("C'est Crooze69");
+        }
+    }
 
 }
